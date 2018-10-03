@@ -8,9 +8,14 @@
  * @see <a href="https://cs125.cs.illinois.edu/lab/5/">Lab 5 Description</a>
  */
 public class Bank {
+    /**
+     *  the name of bank.
+     */
+    private String bankName;
 
-    public String bankName;
-
+    /**
+     *  constructor.
+     */
     public Bank() {
         bankName = "Illini Bank";
     }
@@ -29,6 +34,7 @@ public class Bank {
         /*
          * Implement this function
          */
+        if ()
     }
 
     /**
@@ -77,6 +83,9 @@ public class Bank {
         /*
          * Implement this function
          */
+        if (name != null) {
+            bankAccount.setownerName(name);
+        }
     }
 
     public static int totalAccounts = 0;
@@ -89,6 +98,7 @@ public class Bank {
         /*
          * Implement this function
          */
+        return
     }
 
     /**
